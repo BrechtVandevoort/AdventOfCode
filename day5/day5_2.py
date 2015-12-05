@@ -1,0 +1,1 @@
+print len([x for x in open('input.txt') if len([i for i in xrange(len(x)) if i<len(x)-1 and x.count(x[i:i+2])>1])>0 and len([i for i in xrange(len(x)) if i<len(x)-2 and x[i] == x[i+2]])])
