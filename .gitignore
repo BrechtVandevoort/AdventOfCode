@@ -60,3 +60,5 @@ docs/_build/
 target/
 
 \.DS_Store
+
+2021/.vscode/
